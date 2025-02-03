@@ -397,5 +397,5 @@ kube-prometheus-stack:
   kube-state-metrics:
     fullnameOverride: state-metrics
   prometheus-node-exporter:
-    hostRootFsMount: false
+    hostRootFsMount: True
     fullnameOverride: node-exporter
